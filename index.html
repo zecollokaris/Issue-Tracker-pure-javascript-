@@ -15,9 +15,27 @@
         <div class="jumbotron">
             <h3>Add New Issue:</h3>
             <form id="issueInputForm"></form>
-            <div class="form-group">
-                <label for="issueDesInput">Description</label>
 
+            <!-- Description Input Section -->
+            <div class="form-group">
+                <label for="issueDescInput">Description</label>
+                <input type="text" class="form-control" id="issueDescInput" placeholder="Describe the issue ...">
+            </div>
+
+            <!-- Severity Input Section -->
+            <div class="form-group">
+                <label for="issueSeverityInput">Severity</label>
+                <select id="issueSeverityInput" class="form-control">
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+            </div>
+
+            <!-- Assign To Input Section -->
+            <div class="form-group">
+                <label for="issueAssignToInput">Assign TO</label>
+                <input type="text" class="form-control" id="issueAssignToInput" placeholder="Enter Responsible ...">
             </div>
         </div>
 
