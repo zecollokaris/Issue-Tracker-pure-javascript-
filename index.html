@@ -14,7 +14,7 @@
 
         <div class="jumbotron">
             <h3>Add New Issue:</h3>
-            <form id="issueInputForm"></form>
+            <form id="issueInputForm">
 
             <!-- Description Input Section -->
             <div class="form-group">
@@ -34,11 +34,20 @@
 
             <!-- Assign To Input Section -->
             <div class="form-group">
-                <label for="issueAssignToInput">Assign TO</label>
+                <label for="issueAssignToInput">Assign To</label>
                 <input type="text" class="form-control" id="issueAssignToInput" placeholder="Enter Responsible ...">
             </div>
+            <button type="submit" class="btn btn-primary">Add</button>
+            </form>
         </div>
-
+        <div class="col-lg-12">
+            <div id="issuesList">
+                
+            </div>
+        </div>
+        <div class="footer">
+            <p>Issue Tracker</p>
+        </div>
     </div>
 
     <!-- Chance JavaScript -->
